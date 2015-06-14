@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cce2d13609a74622a79aa74233462108" Name="Diagram1" ShowGrid="true" ZoomLevel="64">
+        <EntityTypeShape EntityType="HospitalAutomationModel.ADLISAGLIKKURULU" Width="1.5" PointX="0.75" PointY="16.125" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.ADLISAGLIKKURULURESIMLER" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.ADLISAGLIKKURULUYOL" Width="1.5" PointX="2.25" PointY="9.375" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.BOLUMLER" Width="1.5" PointX="0.75" PointY="23.625" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.DOSYALAR" Width="1.5" PointX="3" PointY="3.5" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.HASTALAR" Width="1.5" PointX="5.75" PointY="1.75" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.MUAYENEEPIKRIZ" Width="1.5" PointX="0.75" PointY="28.625" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.MUAYENEEPIKRIZRESIMLER" Width="1.5" PointX="0.5" PointY="9.125" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.MUAYENEEPIKRIZYOL" Width="1.5" PointX="0.625" PointY="4.375" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.OGRETIMUYELERİ" Width="1.5" PointX="0.75" PointY="18.5" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.OTURUM" Width="1.5" PointX="5.75" PointY="4.75" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.STATU" PointX="8.375" PointY="0.875" Width="1.5" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7.75" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.TANILAR" Width="1.5" PointX="0.75" PointY="26" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.TETKIKRAPORLAR" Width="1.5" PointX="13.25" PointY="11.5" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.TETKIKRAPORRESIMLER" Width="1.5" PointX="10.75" PointY="13.75" />
+        <EntityTypeShape EntityType="HospitalAutomationModel.TETKIKRAPORYOL" Width="1.5" PointX="8.875" PointY="16.25" />
+        <AssociationConnector Association="HospitalAutomationModel.FK_DOSYALAR_ADLISAGLIKKURULU" />
+        <AssociationConnector Association="HospitalAutomationModel.FK_ADLISAGLIKKURULURESIMLER_ADLISAGLIKKURULUYOL" />
+        <AssociationConnector Association="HospitalAutomationModel.FK_DOSYALAR_ADLISAGLIKKURULUYOL" />
+        <AssociationConnector Association="HospitalAutomationModel.FK_DOSYALAR_BOLUMLER" />
+        <AssociationConnector Association="HospitalAutomationModel.FK_DOSYALAR_MUAYENEEPIKRIZ" />
+        <AssociationConnector Association="HospitalAutomationModel.FK_DOSYALAR_MUAYENEEPIKRIZYOL" />
+        <AssociationConnector Association="HospitalAutomationModel.FK_DOSYALAR_OGRETIMUYELERİ" />
+        <AssociationConnector Association="HospitalAutomationModel.FK_DOSYALAR_STATU" />
+        <AssociationConnector Association="HospitalAutomationModel.FK_DOSYALAR_TANILAR1" />
+        <AssociationConnector Association="HospitalAutomationModel.FK_DOSYALAR_TETKIKRAPORLAR" />
+        <AssociationConnector Association="HospitalAutomationModel.FK_DOSYALAR_YOLLAR" />
+        <AssociationConnector Association="HospitalAutomationModel.FK_MUAYENEEPIKRIZRESIMLER_MUAYENEEPIKRIZYOL" />
+        <AssociationConnector Association="HospitalAutomationModel.FK_RESIMLER_YOLLAR" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
